@@ -2,12 +2,12 @@
 
 namespace IchBin\FilamentElfinder;
 
-use Filament\PluginServiceProvider;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 use GameQ\Result;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 
-class FilamentElfinderServiceProvider extends PluginServiceProvider
+class FilamentElfinderServiceProvider extends PackageServiceProvider
 {
     public static string $name = 'filament-elfinder';
 
